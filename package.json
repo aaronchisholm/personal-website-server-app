@@ -1,0 +1,34 @@
+{
+  "type": "module",
+  "name": "personal-website-server-app",
+  "version": "1.0.0",
+  "description": "Node.js HTTP web server for Aaron Chisholm's personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "start": "node app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronchisholm/personal-website-server-app.git"
+  },
+  "keywords": [
+    "Node",
+    "REST",
+    "Server",
+    "HTTP"
+  ],
+  "author": "Aaron Chisholm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaronchisholm/personal-website-server-app/issues"
+  },
+  "homepage": "https://github.com/aaronchisholm/personal-website-server-app#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.3",
+    "webpack": "^5.88.2"
+  }
+}
